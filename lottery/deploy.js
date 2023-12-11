@@ -3,8 +3,8 @@ const { Web3 } = require("web3");
 const { interface, bytecode } = require("./compile");
 
 const provider = new HDWalletProvider(
-  process.env.SECRET_WORDS,
-  process.env.TESTNET_URL
+  "laundry trim joke eye lottery bachelor three final acquire early snake truth",
+  "https://sepolia.infura.io/v3/175883d6757648149a4b26ab7d909d2e"
 );
 const web3 = new Web3(provider);
 
